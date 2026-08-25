@@ -13,7 +13,7 @@
 
 <p><strong>خطة عملية مفتوحة المصدر للتحضير للمذاكرة، بناء المشاريع، واجتياز مقابلات AI/ML Engineering.</strong></p>
 
-[ابدئي من هنا](#-كيف-تستخدمي-الريبو) · [الخطة الكاملة](#-الخطة-الموحدة) · [المشاريع](#-portfolio-projects) · [المقابلات](#-interview-prep) · [المصادر](#-free-resources)
+[ابدئي من هنا](#-كيف-تستخدمي-الريبو) · [الخطة الكاملة](#-الخطة-الموحدة) · [المشاريع](#-portfolio-projects) · [المقابلات](#-interview-prep) · [المصادر](#-free-resources) · [Study Tracker](templates/study-tracker.md)
 
 </div>
 
@@ -177,9 +177,21 @@ flowchart LR
 | System Design | data flow, APIs, queues, scale, reliability, cost | 4 architecture diagrams |
 | Behavioral | ownership, ambiguity, failure, conflict, impact | 8 قصص بصيغة STAR |
 
-استخدمي [`docs/interview-question-bank.md`](docs/interview-question-bank.md) للتدريب، ولا تكتفي بالإجابة النهائية: اكتبي لماذا الخيارات الأخرى أضعف، وما الافتراض الذي قد يغير القرار.
+استخدمي [`docs/interview-question-bank.md`](docs/interview-question-bank.md) للتدريب، ولا تكتفي بالإجابة النهائية: اكتبي لماذا الخيارات الأخرى أضعف، وما الافتراض الذي قد يغير القرار. ولأسئلة LLM وAgentic AI المتقدمة، راجعي [`docs/big-tech-llm-agent-interviews.md`](docs/big-tech-llm-agent-interviews.md)، وهو بنك أسئلة تدريبية أصلية وليس أسئلة مسرّبة.
 
 ---
+
+## 🧰 Study Tracker وTemplates
+
+للتتبع اليومي والأسبوعي، انسخي [`templates/study-tracker.md`](templates/study-tracker.md) إلى مستودعك أو Notion. يحتوي القالب على Dashboard أسبوعي، Daily Log، Concept Mastery، Project Evidence، Mock Interview Log، ومراجعة أسبوعية.
+
+## 🏢 Big Tech LLM & Agentic AI Interviews
+
+أضفت قسمًا خاصًا بأسئلة LLM وAgentic AI المتدرجة، مع محاور Big Tech، RAG، evaluation، tool permissions، MCP، system design، وsafety. الأسئلة تدريبية أصلية وليست ادعاءً بأنها أسئلة رسمية لشركة محددة: [`Big Tech Interview Prep`](docs/big-tech-llm-agent-interviews.md).
+
+## 📣 Marketing Playbook
+
+لزيادة الوصول بطريقة أخلاقية ومستدامة، استخدمي [`docs/marketing-playbook.md`](docs/marketing-playbook.md). يحتوي على استراتيجية LinkedIn وReddit، قوالب منشورات، cadence لمدة 30 يومًا، وmetrics أهم من عدد الـStars وحده.
 
 ## 🆓 Free Resources
 
@@ -222,10 +234,14 @@ flowchart LR
 ├── PROGRESS.md
 ├── CONTRIBUTING.md
 ├── LICENSE
+├── templates/
+│   └── study-tracker.md
 ├── docs/
 │   ├── study-plan-12-weeks.md
 │   ├── interview-question-bank.md
-│   └── project-rubric.md
+│   ├── project-rubric.md
+│   ├── big-tech-llm-agent-interviews.md
+│   └── marketing-playbook.md
 ├── tracks/
 │   ├── 00-foundations.md
 │   ├── 01-machine-learning.md
